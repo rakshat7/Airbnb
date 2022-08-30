@@ -76,8 +76,8 @@ function Header() {
       </div>
 
       {searchInput && (
-        <div className='flex flex-col col-span-3 mt-3 mb-1 mx-auto'>
-          <DateRangePicker 
+        <div className='flex flex-col col-span-3 mt-3 mb-1 mx-0 sm:mx-auto'>
+          <DateRangePicker
             ranges={[selectionRange]} 
             minDate = {new Date()}
             rangeColors = {["#FD5B61"]}
